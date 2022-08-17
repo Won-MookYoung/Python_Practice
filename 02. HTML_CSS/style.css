@@ -1,0 +1,45 @@
+body{               /*가운데 정렬 */
+    text-align: center;  
+}
+
+
+span {              /*span에 있는 멍멍 폰트설정 */
+    color: steelblue;
+    font-size: 40px;
+}
+
+h1{                   /*h1 폰트설정 사이즈 두껍게*/
+    color: tomato;
+    font-size:40px;
+    font-weight: 300; 
+}
+.tomato{           /*토마토클래스 폰트설정 */
+    color : blue;
+
+}
+
+img.round-shape{           /*이미지 클래스설정하고 동그랗게하기 */
+    border-radius: 50%;
+}
+
+img.round-shape:hover {         /*이미지 클래스설정하고 마우스갖다대면 하는거 자연스럽고 크게 */
+    transition: all 1s;
+    width:450px;
+    height: 400px;
+    cursor:pointer;
+}
+
+ul{                          /*왼쪽 점땡땡 없애기 , 왼쪽 점 0으로 */
+    list-style:none;
+    padding-left:0px;
+}
+
+a{                               /*링크 줄없애기, 색입히기 */
+    text-decoration: none;
+    color:orange;
+}
+
+table {                     /*테이블 정렬 */
+    margin-left:auto;
+    margin-right:auto;
+}
